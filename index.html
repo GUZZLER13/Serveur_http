@@ -1,21 +1,61 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <title>HTTP Request JS</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons-wind.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 me">
+                <h1>METEO</h1>
+                <p>(Esteban DSM)</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label for="city" class="ville"></label>
+                        <input type="text" class="form-control" id="city_search" placeholder="Tapez le nom de la ville">
+                        <button onclick="recupMeteo()" type="button" class="btn btn-default btn-primary">Rechercher</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h1 id="ville"></h1>
+                <p id='icon'></p>
+                <p id="temp"></p>
+                <p id="description"></p>
+
+                <i class="wi"></i>
+
+            </div>
 
 
-	<script src="main.js"></script>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </body>
 
-
 </html>
-
-<!-- merci pour la correction !
- -->

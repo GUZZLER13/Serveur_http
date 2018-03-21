@@ -1,0 +1,66 @@
+.clear {
+    background-image: url(http://www.stradadeiparchi.it/wp-content/uploads/2017/03/sole-definitiva.jpg);
+}
+
+.clouds {
+    background-image: url(http://chez.zorette.free.fr/images/divers/ciels/ciel_i_1280x960.jpg);
+}
+
+.rain {
+    background-image: url(https://i.ytimg.com/vi/8P9x1kTb9bk/maxresdefault.jpg);
+}
+
+.snow {
+    background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2013/10/20/163561/5490b858af83ae6d3cf98ca502bf57bd-1000.jpg);
+}
+
+
+
+img {
+	/* border: 0; */
+	width: 30%;
+}
+
+
+body {
+    font-family: 'trebuchet MS';
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 2px rgba(0,0,0,1);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/images.jpeg);
+    background-position:center;
+    background-size:cover;
+    color: aliceblue;
+}
+
+#ville {
+    font-size: 2.6em;
+}
+
+#description {
+    font-size: 1.5em;
+}
+
+#temp {
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+
+
+#icon {
+
+    font-size: 3em;
+
+}
